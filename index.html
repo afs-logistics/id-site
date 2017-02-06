@@ -604,8 +604,8 @@
           <div class="logo-container hidden-xs hidden-sm" style="float: right; margin: 15px;">
             <img class="logo img-responsive" src="images/AFS-Universal-Sign-In-Portal-Logo.png"/>
           </div>
-          <div ng-show="inError" ng-include="'views/error.html'" class="col-md-offset-3 col-md-6 col-sm-12"></div>
-          <div ng-hide="inError" ng-view=""  class="col-md-offset-3 col-md-6 col-sm-12">
+          <div ng-show="inError" ng-include="'views/error.html'" class="col-md-offset-2 col-md-7 col-sm-12"></div>
+          <div ng-hide="inError" ng-view=""  class="col-md-offset-2 col-md-7 col-sm-12">
             <!-- this will be replaced a the view, as determined by the route config in app.js -->
           </div>
         </div>
@@ -614,8 +614,7 @@
 
     <style type="text/css">
       .view{
-        background-color: white;
-        border: .5px solid #b3b3b3;              
+        background-color: white;           
         margin-top:25%;
       }
       .header{
@@ -634,7 +633,7 @@
       }
       button .login{
         border-radius: 3px;
-        background-color: #00ADEF;
+        background: #00ADEF;
         font-family: 'Open Sans';
         font-size: 8pt;
       }
